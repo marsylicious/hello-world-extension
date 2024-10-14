@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns="http://ns.adobe.com/extension-manifest/6.0">
+    <ExtensionList>
+        <Extension>
+            <Id>HelloWorldExtension</Id>
+            <Version>1.0.0</Version>
+            <HostList>
+                <Host Name="PPRO" Version="[14.0,16.0]"/>
+            </HostList>
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>index.html</MainPath>
+                    <ScriptPath>main.js</ScriptPath>
+                    <StylePath>style.css</StylePath>
+                </Resources>
+            </DispatchInfo>
+        </Extension>
+    </ExtensionList>
+</ExtensionManifest>
